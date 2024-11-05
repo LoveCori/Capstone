@@ -1,0 +1,33 @@
+body {
+    background-color: #CAF0F8;
+}
+
+h1 {
+    background-color: #03045E;
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    background-color: #0077B6;
+    color: white;
+    /*
+        font-family: Arial
+        color: red;
+        font-size: 50px;
+        font-weight: bold or number between 100-900
+        font-style: italic;
+        text-align: left, right, centre, justify;
+    */
+}
+
+footer {
+    background-color: #00B4D8;
+    text-align: center;
+    color: white;
+}
+
+/* 
+    Comments 
+*/
+
