@@ -1,5 +1,39 @@
+header {
+    background-image: url("./images/Triple.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid #1c2541;
+    margin: 2px;
+    max-width: 100%;
+    height: 100px;
+    text-align: center;
+    color: #6fffe9;
+    font-size: 28px;
+    font-weight: 200;
+  }
+
+@font-face {
+    font-family: "PixelifySans";
+    src: url("./Fonts/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf");
+}
+
 body {
-    background-color: #CAF0F8;
+    background-color: black;
+    font-family: PixelifySans, sans-serif;
+    color: white;
+    /*display: flow-root;*/
+}
+
+article {
+    border: 5px solid #1c2541;
+    margin: 2px;
+}
+
+#img1 {
+    float: left;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-left: 2px;
 }
 
 .Video {
@@ -7,54 +41,16 @@ body {
     height: 225px;
     display: block;
     margin: 0 auto;
-}
-
-h1 {
-    background-color: #03045E;
-    text-align: center;
-    color: white;
-}
-
-.Image-Triple {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-  
-.bottom-left {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-}
-  
-.top-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-}
-  
-.top-right {
-    position: absolute;
-    top: 8px;
-    right: 16px;
-}
-  
-.bottom-right {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-}
-  
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    border: 5px solid #1c2541;
 }
 
 h3 {
-    background-color: #0077B6;
-    color: white;
+    background-color: #3a506b;
+    color: #6fffe9;
+    font-size: 24px;
+    font-weight: 800;
+    border: 5px; /*solid #e4c1f9;*/
+    margin: 2px;
     /*
         font-family: Arial
         color: red;
@@ -66,9 +62,11 @@ h3 {
 }
 
 footer {
-    background-color: #00B4D8;
+    background-color: #3a506b;
     text-align: center;
-    color: white;
+    color: #6fffe9;
+    border: 5px solid #1c2541;
+    margin: 2px;
 }
 
 /* 
