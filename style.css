@@ -44,6 +44,11 @@ article {
     border: 5px solid #1c2541;
 }
 
+.Audio {
+    float: right;
+    /*border: 5px solid #1c2541;*/
+}
+
 h3 {
     background-color: #3a506b;
     color: #6fffe9;
