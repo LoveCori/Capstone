@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 header {
     background-image: url("./images/Triple.png");
     background-repeat: no-repeat;
@@ -8,9 +12,15 @@ header {
     height: 100px;
     text-align: center;
     color: #6fffe9;
-    font-size: 28px;
+    font-size: 18px;
     font-weight: 200;
-  }
+}
+
+nav {
+    text-align: right;
+    margin: 10px;
+    padding: 4px;
+}
 
 @font-face {
     font-family: "PixelifySans";
@@ -30,10 +40,9 @@ article {
 }
 
 #img1 {
-    float: left;
     margin-right: 20px;
     margin-top: 5px;
-    margin-left: 2px;
+    margin-left: 10px;
 }
 
 .Video {
@@ -52,10 +61,11 @@ article {
 h3 {
     background-color: #3a506b;
     color: #6fffe9;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 800;
     border: 5px; /*solid #e4c1f9;*/
     margin: 2px;
+    padding: 6px;
     /*
         font-family: Arial
         color: red;
@@ -64,6 +74,12 @@ h3 {
         font-style: italic;
         text-align: left, right, centre, justify;
     */
+}
+
+p, ul, li {
+    margin: 6px;
+    padding: 4px;
+    font-size: 16px;
 }
 
 footer {
